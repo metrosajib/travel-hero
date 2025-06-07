@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel-hero</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <!-- This is the navigation part
@@ -31,27 +33,97 @@
     <!-- This is the banner part(explore Your Travel) -->
     
     <section class="banner">
-        <!-- i will make 2 div here -->
-         <div>
+        <div>
             <h1>Explore Your Travel</h1>
-            <p>Lorem ipsum dolor, <br>sit amet consectetur adipisicing elit. Eveniet, explicabo!</p>
-        
-        
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, explicabo!</p>
         </div>
-         
-         
-         
-         
 
+        <div class="search-bar-container">
+            <div class="search-input-group">
+                <input type="text" placeholder="Where go" class="search-input">
+            </div>
+            <div class="search-input-group select-wrapper">
+                <select class="search-select">
+                    <option value="">When</option>
+                    <option value="today">Today</option>
+                    <option value="next_week">Next Week</option>
+                    <option value="next_month">Next Month</option>
+                </select>
+                <i class="fas fa-chevron-down select-arrow"></i> </div>
+            <div class="search-input-group select-wrapper">
+                <select class="search-select">
+                    <option value="">Select Type</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="beach">Beach</option>
+                    <option value="city">City Tour</option>
+                </select>
+                <i class="fas fa-chevron-down select-arrow"></i> </div>
+            <button class="search-button">
+                <i class="fas fa-search"></i> Find Now
+            </button>
+        </div>
     </section>
+
     <section class="banner-mob">
         <div>
             <h1>Explore Your Travel</h1>
             <p>Lorem ipsum dolor, <br>sit amet consectetur adipisicing elit. Eveniet, explicabo!</p>
-        
-        
+        </div>
+        <div class="search-bar-container">
+            <div class="search-input-group">
+                <input type="text" placeholder="Where go" class="search-input">
+            </div>
+            <div class="search-input-group select-wrapper">
+                <select class="search-select">
+                    <option value="">When</option>
+                    <option value="today">Today</option>
+                    <option value="next_week">Next Week</option>
+                    <option value="next_month">Next Month</option>
+                </select>
+                <i class="fas fa-chevron-down select-arrow"></i>
+            </div>
+            <div class="search-input-group select-wrapper">
+                <select class="search-select">
+                    <option value="">Select Type</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="beach">Beach</option>
+                    <option value="city">City Tour</option>
+                </select>
+                <i class="fas fa-chevron-down select-arrow"></i>
+            </div>
+            <button class="search-button">
+                <i class="fas fa-search"></i> Find Now
+            </button>
         </div>
     </section>
+
+<!-- popular section -->
+    <section class="popular-tours-section">
+        <div class="popular-tours-content">
+            <h2>Our Popular Tours</h2>
+            <p>
+                Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
+                massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+            <ul>
+                <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at.</li>
+                <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                <li>Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+            </ul>
+            <p>
+                Amet consectetur. Vulputate commodo felis molestie risus
+                ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+                Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
+                semper tincidunt.
+            </p>
+            <button class="read-more-button">Read More</button>
+        </div>
+        <div class="popular-tours-image">
+            <img src="images/Rectangle 4.png" alt="Scenic Mountain View">
+        </div>
+    </section>
+
+
     
 </body>
 </html>
