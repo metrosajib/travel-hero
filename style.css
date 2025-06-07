@@ -1,0 +1,37 @@
+/* Styles for Nav section */
+
+.nav{
+    margin: 50px;
+            background-color: beige;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+}
+.nav-right{
+            display: flex;
+            
+        }
+        .nav-right a{
+            text-decoration: none;
+            justify-content: space-around;
+            font-size: 30px;
+            margin: 30px 20px 0 0;
+            font-weight: bold;
+            
+        }
+        .span-tag{
+            color: orange;
+        }
+        .nav-left{
+            display: flex;
+            margin: 20px 0 0 30px;
+        }
+        .n-l-b2{
+            margin-left: 10px;
+            font-size: 20px;
+            
+        }
+        .n-l-b1{
+            margin-top: 20px;
+            margin-right: 10px;
+        }
