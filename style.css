@@ -39,6 +39,49 @@
             display: none;
         }
 
+
+        /* <!-- This is the banner part(explore Your Travel) --> */
+        .banner{
+            margin: 50px;
+            border-radius: 10px;
+            height: 900px;
+            background-image: url(images/Group\ 13\ \(1\)\ \(1\).png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            color: aliceblue;
+            
+            
+        }
+        /* Style for the inner div inside .banner to center its own text */
+.banner > div { 
+        text-align: center;     
+    max-width: 800px; 
+    padding: 20px;
+}
+
+
+.banner h1 {
+    font-size: 70px; 
+    margin-bottom: 20px; 
+    font-weight: 900;
+}
+
+.banner p {
+    font-size: 20px; 
+    
+}
+.banner-mob{
+    display: none;
+}
+
+        
+
+
+
         /* THis section is media query(maxwidth:576px) */
         @media (max-width: 576px){
             .nav-right{
@@ -60,6 +103,48 @@
             .n-l-b2{
                 font-size: 20px;
             }
+
+
+            /* banner mob */
+            .banner{
+                display: none;
+            }
+            .banner-mob{
+                display: block;
+                background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+                margin: 50px;
+                border-radius: 10px;
+                height: 900px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                text-align: center;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                align-items: center;
+                color: aliceblue;
+
+            }
+
+            .banner-mob > div {
+        text-align: center;
+        max-width: 90%; 
+        padding: 15px;
+    }
+
+
+.banner-mob h1 {
+        font-size: 40px; /* Adjusted font size for mobile H1 */
+        margin-bottom: 15px;
+        font-weight: 900;
+    }
+
+.banner-mob p {
+        font-size: 16px; /* Adjusted font size for mobile P */
+    }
+
         }
 
 
@@ -81,4 +166,43 @@
                 display: flex;
                 flex-direction: column;
             }
+            /* banner tablet */
+            .banner{
+                display: none;
+            }
+            .banner-mob{
+                display: block;
+                background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+                margin: 50px;
+                border-radius: 10px;
+                height: 900px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                align-items: center;
+                color: aliceblue;
+            }
+
+            .banner-mob > div {
+        text-align: center;
+        max-width: 700px; /* Adjust width for tablet */
+        padding: 20px;
+    }
+
+    /* Specific styles for H1 and P within the tablet banner */
+    .banner-mob h1 {
+        font-size: 55px; /* Adjusted font size for tablet H1 */
+        margin-bottom: 18px;
+        font-weight: 900;
+    }
+
+    .banner-mob p {
+        font-size: 18px; /* Adjusted font size for tablet P */
+    }
+
         }
+        
