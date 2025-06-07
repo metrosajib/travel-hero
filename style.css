@@ -1,13 +1,13 @@
-/* Styles for Nav section */
-
-.nav{
-    margin: 50px;
-            background-color: beige;
+/* Styles for Nav Section */
+        .nav{
+            margin: 50px;
+            
             height: 200px;
             display: flex;
             justify-content: space-between;
-}
-.nav-right{
+            
+        }
+        .nav-right{
             display: flex;
             
         }
@@ -15,7 +15,7 @@
             text-decoration: none;
             justify-content: space-around;
             font-size: 30px;
-            margin: 30px 20px 0 0;
+            margin: 60px 20px 0 0;
             font-weight: bold;
             
         }
@@ -34,4 +34,51 @@
         .n-l-b1{
             margin-top: 20px;
             margin-right: 10px;
+        }
+        .nav-right-mob{
+            display: none;
+        }
+
+        /* THis section is media query(maxwidth:576px) */
+        @media (max-width: 576px){
+            .nav-right{
+                display: none;
+            }
+            .nav-right-mob{
+                display: block;
+                margin-top: 50px;
+                
+            }
+            .nav-right-mob-img{
+                width: 50px;
+                height: 50px;
+            }
+            .nav-left{
+                display: flex;
+                flex-direction: column;
+            }
+            .n-l-b2{
+                font-size: 20px;
+            }
+        }
+
+
+        /* THis section is media query(minwidth:577pxto1024px) */
+        @media (min-width:577px) and (max-width: 1024px){
+            .nav-right{
+                display: none;
+            }
+            .nav-right-mob{
+                display: block;
+                margin-top: 50px;
+                
+            }
+            .nav-right-mob-img{
+                width: 50px;
+                height: 50px;
+            }
+            .nav-left{
+                display: flex;
+                flex-direction: column;
+            }
         }
